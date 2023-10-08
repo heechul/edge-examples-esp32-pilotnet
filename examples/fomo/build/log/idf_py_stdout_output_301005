@@ -1,0 +1,64 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+Processing 1 dependencies:
+[1/1] idf (5.1.0)
+-- Project sdkconfig file /home/heechul/esp/edgelab-example-esp32/examples/fomo/sdkconfig
+Loading defaults file /home/heechul/esp/edgelab-example-esp32/examples/fomo/sdkconfig.defaults...
+Loading defaults file /home/heechul/esp/edgelab-example-esp32/examples/fomo/sdkconfig.defaults.esp32s3...
+/home/heechul/esp/edgelab-example-esp32/examples/fomo/sdkconfig.defaults.esp32s3:3 CONFIG_ESP32S3_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/home/heechul/esp/edgelab-example-esp32/examples/fomo/sdkconfig.defaults.esp32s3:4 CONFIG_ESP32S3_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+-- App "fomo" version: 4ff41bd-dirty
+-- Adding linker script /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt bus cmock console cxx driver efuse esp-nn esp-tls esp32-camera esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs fb_gfx freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls modules mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread screen sdmmc soc spi_flash spiffs tcp_transport tflite-lib touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/heechul/esp/esp-idf/components/app_trace /home/heechul/esp/esp-idf/components/app_update /home/heechul/esp/esp-idf/components/bootloader /home/heechul/esp/esp-idf/components/bootloader_support /home/heechul/esp/esp-idf/components/bt /home/heechul/esp/edgelab-example-esp32/components/bus /home/heechul/esp/esp-idf/components/cmock /home/heechul/esp/esp-idf/components/console /home/heechul/esp/esp-idf/components/cxx /home/heechul/esp/esp-idf/components/driver /home/heechul/esp/esp-idf/components/efuse /home/heechul/esp/edgelab-example-esp32/components/esp-nn /home/heechul/esp/esp-idf/components/esp-tls /home/heechul/esp/edgelab-example-esp32/components/esp32-camera /home/heechul/esp/esp-idf/components/esp_adc /home/heechul/esp/esp-idf/components/esp_app_format /home/heechul/esp/esp-idf/components/esp_coex /home/heechul/esp/esp-idf/components/esp_common /home/heechul/esp/esp-idf/components/esp_eth /home/heechul/esp/esp-idf/components/esp_event /home/heechul/esp/esp-idf/components/esp_gdbstub /home/heechul/esp/esp-idf/components/esp_hid /home/heechul/esp/esp-idf/components/esp_http_client /home/heechul/esp/esp-idf/components/esp_http_server /home/heechul/esp/esp-idf/components/esp_https_ota /home/heechul/esp/esp-idf/components/esp_https_server /home/heechul/esp/esp-idf/components/esp_hw_support /home/heechul/esp/esp-idf/components/esp_lcd /home/heechul/esp/esp-idf/components/esp_local_ctrl /home/heechul/esp/esp-idf/components/esp_mm /home/heechul/esp/esp-idf/components/esp_netif /home/heechul/esp/esp-idf/components/esp_netif_stack /home/heechul/esp/esp-idf/components/esp_partition /home/heechul/esp/esp-idf/components/esp_phy /home/heechul/esp/esp-idf/components/esp_pm /home/heechul/esp/esp-idf/components/esp_psram /home/heechul/esp/esp-idf/components/esp_ringbuf /home/heechul/esp/esp-idf/components/esp_rom /home/heechul/esp/esp-idf/components/esp_system /home/heechul/esp/esp-idf/components/esp_timer /home/heechul/esp/esp-idf/components/esp_wifi /home/heechul/esp/esp-idf/components/espcoredump /home/heechul/esp/esp-idf/components/esptool_py /home/heechul/esp/esp-idf/components/fatfs /home/heechul/esp/edgelab-example-esp32/components/fb_gfx /home/heechul/esp/esp-idf/components/freertos /home/heechul/esp/esp-idf/components/hal /home/heechul/esp/esp-idf/components/heap /home/heechul/esp/esp-idf/components/http_parser /home/heechul/esp/esp-idf/components/idf_test /home/heechul/esp/esp-idf/components/ieee802154 /home/heechul/esp/esp-idf/components/json /home/heechul/esp/esp-idf/components/log /home/heechul/esp/esp-idf/components/lwip /home/heechul/esp/edgelab-example-esp32/examples/fomo/main /home/heechul/esp/esp-idf/components/mbedtls /home/heechul/esp/edgelab-example-esp32/components/modules /home/heechul/esp/esp-idf/components/mqtt /home/heechul/esp/esp-idf/components/newlib /home/heechul/esp/esp-idf/components/nvs_flash /home/heechul/esp/esp-idf/components/openthread /home/heechul/esp/esp-idf/components/partition_table /home/heechul/esp/esp-idf/components/perfmon /home/heechul/esp/esp-idf/components/protobuf-c /home/heechul/esp/esp-idf/components/protocomm /home/heechul/esp/esp-idf/components/pthread /home/heechul/esp/edgelab-example-esp32/components/screen /home/heechul/esp/esp-idf/components/sdmmc /home/heechul/esp/esp-idf/components/soc /home/heechul/esp/esp-idf/components/spi_flash /home/heechul/esp/esp-idf/components/spiffs /home/heechul/esp/esp-idf/components/tcp_transport /home/heechul/esp/edgelab-example-esp32/components/tflite-lib /home/heechul/esp/esp-idf/components/touch_element /home/heechul/esp/esp-idf/components/ulp /home/heechul/esp/esp-idf/components/unity /home/heechul/esp/esp-idf/components/usb /home/heechul/esp/esp-idf/components/vfs /home/heechul/esp/esp-idf/components/wear_levelling /home/heechul/esp/esp-idf/components/wifi_provisioning /home/heechul/esp/esp-idf/components/wpa_supplicant /home/heechul/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/heechul/esp/edgelab-example-esp32/examples/fomo/build
+[1/9] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.cpp.obj
+In file included from /home/heechul/esp/edgelab-example-esp32/components/bus/include/i2s_lcd_driver.h:17,
+                 from /home/heechul/esp/edgelab-example-esp32/components/screen/interface_driver/scr_interface_driver.h:23,
+                 from /home/heechul/esp/edgelab-example-esp32/components/screen/screen_driver.h:19,
+                 from /home/heechul/esp/edgelab-example-esp32/components/modules/lcd/app_lcd.h:5,
+                 from /home/heechul/esp/edgelab-example-esp32/examples/fomo/main/app_main.cpp:16:
+/home/heechul/esp/esp-idf/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[2/9] Linking C static library esp-idf/main/libmain.a
+[3/9] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file /home/heechul/esp/edgelab-example-esp32/examples/fomo/sdkconfig
+Compiler supported targets: xtensa-esp32s3-elf
+
+-- Adding linker script /home/heechul/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- App "bootloader" version: v5.1-rc1-dirty
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.ld
+-- Adding linker script /home/heechul/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/heechul/esp/esp-idf/components/bootloader /home/heechul/esp/esp-idf/components/bootloader_support /home/heechul/esp/esp-idf/components/efuse /home/heechul/esp/esp-idf/components/esp_app_format /home/heechul/esp/esp-idf/components/esp_common /home/heechul/esp/esp-idf/components/esp_hw_support /home/heechul/esp/esp-idf/components/esp_rom /home/heechul/esp/esp-idf/components/esp_system /home/heechul/esp/esp-idf/components/esptool_py /home/heechul/esp/esp-idf/components/freertos /home/heechul/esp/esp-idf/components/hal /home/heechul/esp/esp-idf/components/log /home/heechul/esp/esp-idf/components/bootloader/subproject/main /home/heechul/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/heechul/esp/esp-idf/components/newlib /home/heechul/esp/esp-idf/components/partition_table /home/heechul/esp/esp-idf/components/soc /home/heechul/esp/esp-idf/components/spi_flash /home/heechul/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/bootloader
+[1/1] cd /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/bootloader/esp-idf/esptool_py && /home/heechul/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/heechul/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/bootloader/bootloader.bin
+Bootloader binary size 0x56d0 bytes. 0x2930 bytes (32%) free.
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable fomo.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/fomo.bin
+[7/7] cd /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/esp-idf/esptool_py && /home/heechul/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/heechul/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/partition_table/partition-table.bin /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/fomo.bin
+fomo.bin binary size 0x63ad0 bytes. Smallest app partition is 0x3c0000 bytes. 0x35c530 bytes (90%) free.

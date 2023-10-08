@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/CMakeFiles/bootloader
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/CMakeFiles/bootloader.rule
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/CMakeFiles/bootloader-complete.rule
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

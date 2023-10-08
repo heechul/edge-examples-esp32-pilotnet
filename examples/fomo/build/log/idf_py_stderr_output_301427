@@ -1,0 +1,7 @@
+[0;33m--- idf_monitor on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x420082a9: s_test_psram at /home/heechul/esp/esp-idf/components/esp_psram/esp_psram.c:416
+[0m
+[0;33m0x403754d4: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

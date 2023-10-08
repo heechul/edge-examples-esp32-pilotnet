@@ -1,0 +1,343 @@
+[0;33m--- idf_monitor on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048839: uart_tx_one_char_uart in ROM
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40375bd2: panic_abort at /home/heechul/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x4037cd21: esp_system_abort at /home/heechul/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4037f792: vApplicationStackOverflowHook at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:581
+[0m
+[0;33m0x4037e3c3: vTaskSwitchContext at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3729
+[0m
+[0;33m0x4037f8a0: _frxt_dispatch at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:450
+[0m
+[0;33m0x4037f896: _frxt_int_exit at /home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S:245
+[0m
+[0;33m0x40379e1e: esp_cpu_wait_for_intr at /home/heechul/esp/esp-idf/components/esp_hw_support/cpu.c:121
+[0m
+[0;33m0x40375658: call_start_cpu1 at /home/heechul/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+E

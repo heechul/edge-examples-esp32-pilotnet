@@ -1,0 +1,248 @@
+[1/181] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_log.cc.obj
+[2/181] Performing build step for 'bootloader'
+[1/1] cd /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/bootloader/esp-idf/esptool_py && /home/heechul/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/heechul/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/heechul/esp/edgelab-example-esp32/examples/fomo/build/bootloader/bootloader.bin
+Bootloader binary size 0x56d0 bytes. 0x2930 bytes (32%) free.
+[3/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_profiler.cc.obj
+[4/179] Building C object esp-idf/screen/CMakeFiles/__idf_screen.dir/controller_driver/gc9a01/gc9a01.c.obj
+In file included from /home/heechul/esp/edgelab-example-esp32/components/bus/include/i2s_lcd_driver.h:17,
+                 from /home/heechul/esp/edgelab-example-esp32/components/screen/interface_driver/scr_interface_driver.h:23,
+                 from /home/heechul/esp/edgelab-example-esp32/components/screen/screen_driver.h:19,
+                 from /home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/gc9a01/gc9a01.c:20:
+/home/heechul/esp/esp-idf/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[5/179] Linking C static library esp-idf/screen/libscreen.a
+[6/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_time.cc.obj
+[7/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_string.cc.obj
+[8/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_op_resolver.cc.obj
+[9/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_resource_variable.cc.obj
+[10/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/system_setup.cc.obj
+[11/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_interpreter.cc.obj
+[12/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_graph.cc.obj
+[13/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/micro_utils.cc.obj
+[14/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/mock_micro_graph.cc.obj
+[15/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/recording_micro_allocator.cc.obj
+[16/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/activations.cc.obj
+[17/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/test_helper_custom_ops.cc.obj
+[18/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/activations_common.cc.obj
+[19/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/add_common.cc.obj
+[20/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/test_helpers.cc.obj
+[21/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/add_n.cc.obj
+[22/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/arg_min_max.cc.obj
+[23/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/assign_variable.cc.obj
+[24/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/batch_to_space_nd.cc.obj
+[25/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/broadcast_args.cc.obj
+[26/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/call_once.cc.obj
+[27/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/broadcast_to.cc.obj
+[28/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/ceil.cc.obj
+[29/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/cast.cc.obj
+[30/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/circular_buffer.cc.obj
+[31/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/circular_buffer_common.cc.obj
+[32/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/conv_common.cc.obj
+[33/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/cumsum.cc.obj
+[34/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/depth_to_space.cc.obj
+[35/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/concatenation.cc.obj
+[36/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/depthwise_conv_common.cc.obj
+[37/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/dequantize.cc.obj
+[38/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/comparisons.cc.obj
+[39/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/dequantize_common.cc.obj
+[40/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/ethosu.cc.obj
+[41/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/div.cc.obj
+[42/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/elementwise.cc.obj
+[43/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/detection_postprocess.cc.obj
+[44/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/elu.cc.obj
+[45/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/embedding_lookup.cc.obj
+[46/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/exp.cc.obj
+[47/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/expand_dims.cc.obj
+[48/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/floor.cc.obj
+[49/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/fill.cc.obj
+[50/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/floor_div.cc.obj
+[51/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/floor_mod.cc.obj
+[52/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/fully_connected_common.cc.obj
+[53/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/gather_nd.cc.obj
+[54/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/gather.cc.obj
+[55/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/hard_swish.cc.obj
+[56/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/hard_swish_common.cc.obj
+[57/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/if.cc.obj
+[58/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/kernel_runner.cc.obj
+[59/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/kernel_util.cc.obj
+[60/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/l2_pool_2d.cc.obj
+[61/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/l2norm.cc.obj
+[62/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/leaky_relu.cc.obj
+[63/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/leaky_relu_common.cc.obj
+[64/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/log_softmax.cc.obj
+[65/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/logical_common.cc.obj
+[66/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/logical.cc.obj
+[67/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/micro_tensor_utils.cc.obj
+[68/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/logistic.cc.obj
+[69/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/logistic_common.cc.obj
+[70/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/lstm_eval.cc.obj
+[71/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/lstm_eval_common.cc.obj
+[72/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/mirror_pad.cc.obj
+[73/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/maximum_minimum.cc.obj
+[74/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/neg.cc.obj
+[75/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/mul_common.cc.obj
+[76/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/pack.cc.obj
+[77/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/pooling_common.cc.obj
+[78/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/pad.cc.obj
+[79/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/prelu.cc.obj
+[80/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/prelu_common.cc.obj
+[81/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/quantize.cc.obj
+[82/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/quantize_common.cc.obj
+[83/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/reduce.cc.obj
+[84/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/reduce_common.cc.obj
+[85/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/read_variable.cc.obj
+[86/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/reshape.cc.obj
+[87/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/resize_bilinear.cc.obj
+[88/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj
+[89/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/round.cc.obj
+[90/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/shape.cc.obj
+[91/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/select.cc.obj
+[92/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/softmax_common.cc.obj
+[93/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/slice.cc.obj
+[94/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/space_to_batch_nd.cc.obj
+[95/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/space_to_depth.cc.obj
+[96/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/split.cc.obj
+[97/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/split_v.cc.obj
+[98/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/squeeze.cc.obj
+[99/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/squared_difference.cc.obj
+[100/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/sub_common.cc.obj
+[101/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/strided_slice.cc.obj
+[102/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/sub.cc.obj
+[103/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/svdf.cc.obj
+[104/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/svdf_common.cc.obj
+[105/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/tanh.cc.obj
+[106/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/transpose.cc.obj
+[107/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/unpack.cc.obj
+[108/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc.obj
+[109/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc.obj
+[110/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/transpose_conv.cc.obj
+[111/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/var_handle.cc.obj
+[112/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/while.cc.obj
+[113/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/zeros_like.cc.obj
+[114/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/tflite_bridge/flatbuffer_conversions_bridge.cc.obj
+[115/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/esp_nn/conv.cc.obj
+[116/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/esp_nn/add.cc.obj
+[117/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/fft.cc.obj
+[118/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/fft_util.cc.obj
+[119/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/filterbank.c.obj
+[120/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/esp_nn/depthwise_conv.cc.obj
+[121/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c.obj
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c: In function 'FreqToMel':
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c:31:65: warning: implicit conversion from 'float' to 'double' to match other operand of binary expression [-Wdouble-promotion]
+   31 | static float FreqToMel(float freq) { return 1127.0 * log1p(freq / 700.0); }
+      |                                                                 ^
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c: In function 'QuantizeFilterbankWeights':
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c:52:57: warning: implicit conversion from 'float' to 'double' to match other operand of binary expression [-Wdouble-promotion]
+   52 |   *weight = floor(float_weight * (1 << kFilterbankBits) + 0.5);
+      |                                                         ^
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c:53:26: warning: implicit conversion from 'float' to 'double' to match other operand of binary expression [-Wdouble-promotion]
+   53 |   *unweight = floor((1.0 - float_weight) * (1 << kFilterbankBits) + 0.5);
+      |                          ^
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c: In function 'FilterbankPopulateState':
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c:98:47: warning: implicit conversion from 'float' to 'double' to match other operand of binary expression [-Wdouble-promotion]
+   98 |   const float hz_per_sbin = 0.5 * sample_rate / ((float)spectrum_size - 1);
+      |                                               ^
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c:99:28: warning: implicit conversion from 'float' to 'double' to match other operand of binary expression [-Wdouble-promotion]
+   99 |   state->start_index = 1.5 + config->lower_band_limit / hz_per_sbin;
+      |                            ^
+[122/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/frontend.c.obj
+[123/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/frontend_util.c.obj
+[124/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/log_lut.c.obj
+[125/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/log_scale.c.obj
+[126/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.c.obj
+[127/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.c.obj
+[128/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.c.obj
+[129/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.c.obj
+[130/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.c.obj
+[131/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/window.c.obj
+[132/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/kiss_fft_int16.cc.obj
+[133/179] Building C object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/experimental/microfrontend/lib/window_util.c.obj
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/window_util.c: In function 'WindowPopulateState':
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/window_util.c:44:32: warning: implicit conversion from 'float' to 'double' to match other operand of binary expression [-Wdouble-promotion]
+   44 |   const float arg = M_PI * 2.0 / ((float)state->size);
+      |                                ^
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/window_util.c:46:17: warning: comparison of integer expressions of different signedness: 'int' and 'size_t' {aka 'unsigned int'} [-Wsign-compare]
+   46 |   for (i = 0; i < state->size; ++i) {
+      |                 ^
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/window_util.c:47:46: warning: implicit conversion from 'float' to 'double' to match other operand of binary expression [-Wdouble-promotion]
+   47 |     float float_value = 0.5 - (0.5 * cos(arg * (i + 0.5)));
+      |                                              ^
+/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/tensorflow/lite/experimental/microfrontend/lib/window_util.c:50:56: warning: implicit conversion from 'float' to 'double' to match other operand of binary expression [-Wdouble-promotion]
+   50 |         floor(float_value * (1 << kFrontendWindowBits) + 0.5);
+      |                                                        ^
+[134/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/esp_nn/fully_connected.cc.obj
+[135/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj
+[136/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj
+[137/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/kernels/kernel_util.cc.obj
+[138/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/arena_allocator/recording_single_arena_buffer_allocator.cc.obj
+[139/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/esp_nn/pooling.cc.obj
+[140/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/esp_nn/mul.cc.obj
+[141/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/core/api/error_reporter.cc.obj
+[142/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/core/c/common.cc.obj
+[143/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/kernels/esp_nn/softmax.cc.obj
+[144/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/core/api/tensor_utils.cc.obj
+[145/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/kernels/internal/common.cc.obj
+[146/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/arena_allocator/non_persistent_arena_buffer_allocator.cc.obj
+[147/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/kernels/internal/quantization_util.cc.obj
+[148/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/kernels/internal/portable_tensor_utils.cc.obj
+[149/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.cc.obj
+[150/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/kernels/internal/tensor_utils.cc.obj
+[151/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/kernels/internal/tensor_ctypes.cc.obj
+[152/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.cc.obj
+[153/179] Building C object esp-idf/modules/CMakeFiles/__idf_modules.dir/imu/qma7981.c.obj
+/home/heechul/esp/edgelab-example-esp32/components/modules/imu/qma7981.c: In function 'qma7981_get_acce':
+/home/heechul/esp/edgelab-example-esp32/components/modules/imu/qma7981.c:185:60: warning: passing argument 3 of 'qma7981_read_bytes' from incompatible pointer type [-Wincompatible-pointer-types]
+  185 |         ret_val |= qma7981_read_bytes(QMA7981_REG_DX_L, 6, &data);
+      |                                                            ^~~~~
+      |                                                            |
+      |                                                            struct qma_acce_data_t *
+/home/heechul/esp/edgelab-example-esp32/components/modules/imu/qma7981.c:67:81: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'struct qma_acce_data_t *'
+   67 | static esp_err_t qma7981_read_bytes(uint8_t reg_addr, size_t data_len, uint8_t *data)
+      |                                                                        ~~~~~~~~~^~~~
+[154/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/kernels/internal/reference/comparisons.cc.obj
+[155/179] Building C object esp-idf/modules/CMakeFiles/__idf_modules.dir/lcd/app_lcd.c.obj
+In file included from /home/heechul/esp/edgelab-example-esp32/components/bus/include/i2s_lcd_driver.h:17,
+                 from /home/heechul/esp/edgelab-example-esp32/components/screen/interface_driver/scr_interface_driver.h:23,
+                 from /home/heechul/esp/edgelab-example-esp32/components/screen/screen_driver.h:19,
+                 from /home/heechul/esp/edgelab-example-esp32/components/modules/lcd/app_lcd.h:5,
+                 from /home/heechul/esp/edgelab-example-esp32/components/modules/lcd/app_lcd.c:1:
+/home/heechul/esp/esp-idf/components/driver/deprecated/driver/i2s.h:27:2: warning: #warning "This set of I2S APIs has been deprecated, please include 'driver/i2s_std.h', 'driver/i2s_pdm.h' or 'driver/i2s_tdm.h' instead. if you want to keep using the old APIs and ignore this warning, you can enable 'Suppress leagcy driver deprecated warning' option under 'I2S Configuration' menu in Kconfig" [-Wcpp]
+   27 | #warning "This set of I2S APIs has been deprecated, \
+      |  ^~~~~~~
+[156/179] Building C object esp-idf/modules/CMakeFiles/__idf_modules.dir/camera/app_camera.c.obj
+/home/heechul/esp/edgelab-example-esp32/components/modules/camera/app_camera.c: In function 'register_camera':
+/home/heechul/esp/edgelab-example-esp32/components/modules/camera/app_camera.c:72:3: warning: 'pin_sscb_sda' is deprecated: please use pin_sccb_sda instead [-Wdeprecated-declarations]
+   72 |   config.pin_sscb_sda = CAMERA_PIN_SIOD;
+      |   ^~~~~~
+In file included from /home/heechul/esp/edgelab-example-esp32/components/modules/camera/app_camera.h:8,
+                 from /home/heechul/esp/edgelab-example-esp32/components/modules/camera/app_camera.c:16:
+/home/heechul/esp/edgelab-example-esp32/components/esp32-camera/driver/include/esp_camera.h:117:13: note: declared here
+  117 |         int pin_sscb_sda __attribute__((deprecated("please use pin_sccb_sda instead")));           /*!< GPIO pin for camera SDA line (legacy name) */
+      |             ^~~~~~~~~~~~
+/home/heechul/esp/edgelab-example-esp32/components/modules/camera/app_camera.c:73:3: warning: 'pin_sscb_scl' is deprecated: please use pin_sccb_scl instead [-Wdeprecated-declarations]
+   73 |   config.pin_sscb_scl = CAMERA_PIN_SIOC;
+      |   ^~~~~~
+/home/heechul/esp/edgelab-example-esp32/components/esp32-camera/driver/include/esp_camera.h:121:13: note: declared here
+  121 |         int pin_sscb_scl __attribute__((deprecated("please use pin_sccb_scl instead")));           /*!< GPIO pin for camera SCL line (legacy name) */
+      |             ^~~~~~~~~~~~
+[157/179] Building CXX object esp-idf/modules/CMakeFiles/__idf_modules.dir/model/fomo_model_data.cpp.obj
+[158/179] Building CXX object esp-idf/modules/CMakeFiles/__idf_modules.dir/model/pfld_meter_model_data.cpp.obj
+[159/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/core/api/op_resolver.cc.obj
+[160/179] Building C object esp-idf/modules/CMakeFiles/__idf_modules.dir/imu/app_imu.c.obj
+FAILED: esp-idf/modules/CMakeFiles/__idf_modules.dir/imu/app_imu.c.obj 
+/home/heechul/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.1-rc1-dirty\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/heechul/esp/edgelab-example-esp32/examples/fomo/build/config -I/home/heechul/esp/edgelab-example-esp32/components/modules/camera -I/home/heechul/esp/edgelab-example-esp32/components/modules/lcd -I/home/heechul/esp/edgelab-example-esp32/components/modules/imu -I/home/heechul/esp/edgelab-example-esp32/components/modules/model -I/home/heechul/esp/edgelab-example-esp32/components/modules/algorithm -I/home/heechul/esp/edgelab-example-esp32/components/modules/utils -I/home/heechul/esp/esp-idf/components/newlib/platform_include -I/home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/heechul/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/heechul/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/heechul/esp/esp-idf/components/freertos/esp_additions/include -I/home/heechul/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include -I/home/heechul/esp/esp-idf/components/esp_hw_support/include -I/home/heechul/esp/esp-idf/components/esp_hw_support/include/soc -I/home/heechul/esp/esp-idf/components/esp_hw_support/include/soc/esp32s3 -I/home/heechul/esp/esp-idf/components/esp_hw_support/port/esp32s3/. -I/home/heechul/esp/esp-idf/components/esp_hw_support/port/esp32s3/private_include -I/home/heechul/esp/esp-idf/components/heap/include -I/home/heechul/esp/esp-idf/components/log/include -I/home/heechul/esp/esp-idf/components/soc/include -I/home/heechul/esp/esp-idf/components/soc/esp32s3 -I/home/heechul/esp/esp-idf/components/soc/esp32s3/include -I/home/heechul/esp/esp-idf/components/hal/esp32s3/include -I/home/heechul/esp/esp-idf/components/hal/include -I/home/heechul/esp/esp-idf/components/hal/platform_port/include -I/home/heechul/esp/esp-idf/components/esp_rom/include -I/home/heechul/esp/esp-idf/components/esp_rom/include/esp32s3 -I/home/heechul/esp/esp-idf/components/esp_rom/esp32s3 -I/home/heechul/esp/esp-idf/components/esp_common/include -I/home/heechul/esp/esp-idf/components/esp_system/include -I/home/heechul/esp/esp-idf/components/esp_system/port/soc -I/home/heechul/esp/esp-idf/components/esp_system/port/include/private -I/home/heechul/esp/esp-idf/components/xtensa/include -I/home/heechul/esp/esp-idf/components/xtensa/esp32s3/include -I/home/heechul/esp/esp-idf/components/lwip/include -I/home/heechul/esp/esp-idf/components/lwip/include/apps -I/home/heechul/esp/esp-idf/components/lwip/include/apps/sntp -I/home/heechul/esp/esp-idf/components/lwip/lwip/src/include -I/home/heechul/esp/esp-idf/components/lwip/port/include -I/home/heechul/esp/esp-idf/components/lwip/port/freertos/include -I/home/heechul/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/heechul/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/heechul/esp/edgelab-example-esp32/components/esp32-camera/driver/include -I/home/heechul/esp/edgelab-example-esp32/components/esp32-camera/conversions/include -I/home/heechul/esp/esp-idf/components/driver/include -I/home/heechul/esp/esp-idf/components/driver/deprecated -I/home/heechul/esp/esp-idf/components/driver/analog_comparator/include -I/home/heechul/esp/esp-idf/components/driver/dac/include -I/home/heechul/esp/esp-idf/components/driver/gpio/include -I/home/heechul/esp/esp-idf/components/driver/gptimer/include -I/home/heechul/esp/esp-idf/components/driver/i2c/include -I/home/heechul/esp/esp-idf/components/driver/i2s/include -I/home/heechul/esp/esp-idf/components/driver/ledc/include -I/home/heechul/esp/esp-idf/components/driver/mcpwm/include -I/home/heechul/esp/esp-idf/components/driver/parlio/include -I/home/heechul/esp/esp-idf/components/driver/pcnt/include -I/home/heechul/esp/esp-idf/components/driver/rmt/include -I/home/heechul/esp/esp-idf/components/driver/sdio_slave/include -I/home/heechul/esp/esp-idf/components/driver/sdmmc/include -I/home/heechul/esp/esp-idf/components/driver/sigma_delta/include -I/home/heechul/esp/esp-idf/components/driver/spi/include -I/home/heechul/esp/esp-idf/components/driver/temperature_sensor/include -I/home/heechul/esp/esp-idf/components/driver/touch_sensor/include -I/home/heechul/esp/esp-idf/components/driver/twai/include -I/home/heechul/esp/esp-idf/components/driver/uart/include -I/home/heechul/esp/esp-idf/components/driver/usb_serial_jtag/include -I/home/heechul/esp/esp-idf/components/driver/touch_sensor/esp32s3/include -I/home/heechul/esp/esp-idf/components/esp_pm/include -I/home/heechul/esp/esp-idf/components/esp_ringbuf/include -I/home/heechul/esp/edgelab-example-esp32/components/bus/include -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ili9341 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/st7789 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/st7796 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/nt35510 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ili9806 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ili9486 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ili9488 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ssd1351 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/rm68120 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ssd1306 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ssd1307 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ssd1322 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/ssd1963 -I/home/heechul/esp/edgelab-example-esp32/components/screen/controller_driver/gc9a01 -I/home/heechul/esp/edgelab-example-esp32/components/screen/interface_driver -I/home/heechul/esp/edgelab-example-esp32/components/screen -I/home/heechul/esp/edgelab-example-esp32/components/fb_gfx -I/home/heechul/esp/edgelab-example-esp32/components/fb_gfx/include -I/home/heechul/esp/edgelab-example-esp32/components/tflite-lib -I/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/third_party/gemmlowp -I/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/third_party/flatbuffers/include -I/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/third_party/ruy -I/home/heechul/esp/edgelab-example-esp32/components/tflite-lib/third_party/kissfft -I/home/heechul/esp/esp-idf/components/esp_timer/include -mlongcalls  -fdiagnostics-color=always -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/heechul/esp/edgelab-example-esp32/examples/fomo=. -fmacro-prefix-map=/home/heechul/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -ffast-math -O3 -DTF_LITE_STATIC_MEMORY -MD -MT esp-idf/modules/CMakeFiles/__idf_modules.dir/imu/app_imu.c.obj -MF esp-idf/modules/CMakeFiles/__idf_modules.dir/imu/app_imu.c.obj.d -o esp-idf/modules/CMakeFiles/__idf_modules.dir/imu/app_imu.c.obj -c /home/heechul/esp/edgelab-example-esp32/components/modules/imu/app_imu.c
+/home/heechul/esp/edgelab-example-esp32/components/modules/imu/app_imu.c: In function 'register_imu':
+/home/heechul/esp/edgelab-example-esp32/components/modules/imu/app_imu.c:48:32: error: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=]
+   48 |     printf("imu_data->window: %d\n", imu_data->window);
+      |                               ~^     ~~~~~~~~~~~~~~~~
+      |                                |             |
+      |                                int           uint32_t {aka long unsigned int}
+      |                               %ld
+cc1: some warnings being treated as errors
+[161/179] Building CXX object esp-idf/modules/CMakeFiles/__idf_modules.dir/model/motion_model_data.cpp.obj
+[162/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/kernels/internal/reference/portable_tensor_utils.cc.obj
+[163/179] Building CXX object esp-idf/modules/CMakeFiles/__idf_modules.dir/model/yolo_model_data.cpp.obj
+[164/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj
+[165/179] Building CXX object esp-idf/tflite-lib/CMakeFiles/__idf_tflite-lib.dir/tensorflow/lite/schema/schema_utils.cc.obj
+ninja: build stopped: subcommand failed.
