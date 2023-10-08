@@ -1,4 +1,4 @@
-/* * Data converted from /Users/h488y928/Projects/edgelab-example-esp32/examples/pilotnet/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/h488y928/Projects/edge-examples-esp32-pilotnet/examples/pilotnet/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
